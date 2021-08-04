@@ -1,0 +1,28 @@
+*header{
+    background-color: #ef4c27;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header nav ul{
+    display: flex;
+    width: 100%;
+}
+header nav ul.menu{
+    margin-left: 20px;
+}
+
+header nav ul.usuraio {
+    justify-content: flex-end;
+}
+header a{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
